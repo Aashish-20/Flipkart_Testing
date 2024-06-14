@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T15:36:55 IST" name="Default suite" finished-at="2024-06-14T15:37:13 IST" duration-ms="17458">
+    <groups>
+      <group name="grocery">
+        <method signature="GroceryTest.testGroceryAddItems()[pri:4, instance:com.flipkart.tests.GroceryTest@29d80d2b]" name="testGroceryAddItems" class="com.flipkart.tests.GroceryTest"/>
+      </group> <!-- grocery -->
+    </groups>
+    <test started-at="2024-06-14T15:36:55 IST" name="Default test" finished-at="2024-06-14T15:37:13 IST" duration-ms="17458">
+      <class name="com.flipkart.tests.GroceryTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.flipkart.tests.GroceryTest@29d80d2b]" started-at="2024-06-14T15:36:54 IST" name="beforesuite" finished-at="2024-06-14T15:36:55 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.GroceryTest@29d80d2b]" started-at="2024-06-14T15:36:55 IST" name="setup" finished-at="2024-06-14T15:37:04 IST" duration-ms="8334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.GroceryTest.testGroceryAddItems() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGroceryAddItems()[pri:4, instance:com.flipkart.tests.GroceryTest@29d80d2b]" started-at="2024-06-14T15:37:04 IST" name="testGroceryAddItems" finished-at="2024-06-14T15:37:11 IST" duration-ms="6978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroceryAddItems -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.GroceryTest@29d80d2b]" started-at="2024-06-14T15:37:11 IST" name="teardown" finished-at="2024-06-14T15:37:13 IST" duration-ms="2083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGroceryAddItems status=SUCCESS method=GroceryTest.testGroceryAddItems()[pri:4, instance:com.flipkart.tests.GroceryTest@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.GroceryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

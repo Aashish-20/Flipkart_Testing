@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="18" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T12:54:09 IST" name="Flipkart Automation Suite" finished-at="2024-06-14T12:57:40 IST" duration-ms="211490">
+    <groups>
+      <group name="seller">
+        <method signature="SellerTest.testSellerBtnPresence()[pri:1, instance:com.flipkart.tests.SellerTest@5a7fe64f]" name="testSellerBtnPresence" class="com.flipkart.tests.SellerTest"/>
+        <method signature="SellerTest.testSellerLoginFunctionality()[pri:2, instance:com.flipkart.tests.SellerTest@5a7fe64f]" name="testSellerLoginFunctionality" class="com.flipkart.tests.SellerTest"/>
+        <method signature="SellerTest.testSellerResetPasswordFunctionality()[pri:3, instance:com.flipkart.tests.SellerTest@5a7fe64f]" name="testSellerResetPasswordFunctionality" class="com.flipkart.tests.SellerTest"/>
+        <method signature="SellerTest.testStartSellingBtnPresence()[pri:4, instance:com.flipkart.tests.SellerTest@5a7fe64f]" name="testStartSellingBtnPresence" class="com.flipkart.tests.SellerTest"/>
+      </group> <!-- seller -->
+      <group name="help">
+        <method signature="HelpPageTest.testHelpPageFeedbackYesBtnFunctionality()[pri:1, instance:com.flipkart.tests.HelpPageTest@6a4f1a55]" name="testHelpPageFeedbackYesBtnFunctionality" class="com.flipkart.tests.HelpPageTest"/>
+        <method signature="HelpPageTest.testHelpPageFeedbackNoBtnFunctionality()[pri:2, instance:com.flipkart.tests.HelpPageTest@6a4f1a55]" name="testHelpPageFeedbackNoBtnFunctionality" class="com.flipkart.tests.HelpPageTest"/>
+      </group> <!-- help -->
+      <group name="grocery">
+        <method signature="GroceryTest.testGroceryValidPincode()[pri:1, instance:com.flipkart.tests.GroceryTest@5276d6ee]" name="testGroceryValidPincode" class="com.flipkart.tests.GroceryTest"/>
+        <method signature="GroceryTest.testGroceryInValidPincode()[pri:2, instance:com.flipkart.tests.GroceryTest@5276d6ee]" name="testGroceryInValidPincode" class="com.flipkart.tests.GroceryTest"/>
+        <method signature="GroceryTest.testGrocerySearchBarFunctionality()[pri:3, instance:com.flipkart.tests.GroceryTest@5276d6ee]" name="testGrocerySearchBarFunctionality" class="com.flipkart.tests.GroceryTest"/>
+        <method signature="GroceryTest.testGroceryAddItems()[pri:4, instance:com.flipkart.tests.GroceryTest@5276d6ee]" name="testGroceryAddItems" class="com.flipkart.tests.GroceryTest"/>
+        <method signature="GroceryTest.testGroceryRemoveItems()[pri:5, instance:com.flipkart.tests.GroceryTest@5276d6ee]" name="testGroceryRemoveItems" class="com.flipkart.tests.GroceryTest"/>
+      </group> <!-- grocery -->
+      <group name="sellerRegister">
+        <method signature="SellerRegisterPageTest.testInvalidOtpFunctionality()[pri:1, instance:com.flipkart.tests.SellerRegisterPageTest@5dafbe45]" name="testInvalidOtpFunctionality" class="com.flipkart.tests.SellerRegisterPageTest"/>
+      </group> <!-- sellerRegister -->
+      <group name="login">
+        <method signature="LoginTest.testInvalidLoginFunctionality()[pri:1, instance:com.flipkart.tests.LoginTest@46d59067]" name="testInvalidLoginFunctionality" class="com.flipkart.tests.LoginTest"/>
+      </group> <!-- login -->
+      <group name="cart">
+        <method signature="CartTest.testAddProductToCart()[pri:1, instance:com.flipkart.tests.CartTest@50378a4]" name="testAddProductToCart" class="com.flipkart.tests.CartTest"/>
+        <method signature="CartTest.testRemoveProductFromCart()[pri:2, instance:com.flipkart.tests.CartTest@50378a4]" name="testRemoveProductFromCart" class="com.flipkart.tests.CartTest"/>
+        <method signature="CartTest.testBuyNowBtnFunctionality()[pri:3, instance:com.flipkart.tests.CartTest@50378a4]" name="testBuyNowBtnFunctionality" class="com.flipkart.tests.CartTest"/>
+      </group> <!-- cart -->
+      <group name="advertise">
+        <method signature="AdvertisePageTest.testInvalidLoginFunctionalityonAdsPage()[pri:1, instance:com.flipkart.tests.AdvertisePageTest@76494737]" name="testInvalidLoginFunctionalityonAdsPage" class="com.flipkart.tests.AdvertisePageTest"/>
+      </group> <!-- advertise -->
+      <group name="home">
+        <method signature="HomeTest.testFlipkartLogoVisibility()[pri:1, instance:com.flipkart.tests.HomeTest@626abbd0]" name="testFlipkartLogoVisibility" class="com.flipkart.tests.HomeTest"/>
+        <method signature="HomeTest.testSearchBarFunctionality()[pri:2, instance:com.flipkart.tests.HomeTest@626abbd0]" name="testSearchBarFunctionality" class="com.flipkart.tests.HomeTest"/>
+        <method signature="HomeTest.testSearchWithMisspelledQueries()[pri:3, instance:com.flipkart.tests.HomeTest@626abbd0]" name="testSearchWithMisspelledQueries" class="com.flipkart.tests.HomeTest"/>
+      </group> <!-- home -->
+    </groups>
+    <test started-at="2024-06-14T12:54:09 IST" name="AdvertisePageTest" finished-at="2024-06-14T12:54:21 IST" duration-ms="12721">
+      <class name="com.flipkart.tests.AdvertisePageTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.AdvertisePageTest@76494737]" started-at="2024-06-14T12:54:09 IST" name="setup" finished-at="2024-06-14T12:54:15 IST" duration-ms="6924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.AdvertisePageTest.testInvalidLoginFunctionalityonAdsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidLoginFunctionalityonAdsPage()[pri:1, instance:com.flipkart.tests.AdvertisePageTest@76494737]" started-at="2024-06-14T12:54:15 IST" name="testInvalidLoginFunctionalityonAdsPage" finished-at="2024-06-14T12:54:19 IST" duration-ms="3839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginFunctionalityonAdsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.AdvertisePageTest@76494737]" started-at="2024-06-14T12:54:19 IST" name="teardown" finished-at="2024-06-14T12:54:21 IST" duration-ms="1908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLoginFunctionalityonAdsPage status=SUCCESS method=AdvertisePageTest.testInvalidLoginFunctionalityonAdsPage()[pri:1, instance:com.flipkart.tests.AdvertisePageTest@76494737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.AdvertisePageTest -->
+    </test> <!-- AdvertisePageTest -->
+    <test started-at="2024-06-14T12:54:21 IST" name="CartTest" finished-at="2024-06-14T12:55:09 IST" duration-ms="47587">
+      <class name="com.flipkart.tests.CartTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:54:21 IST" name="setup" finished-at="2024-06-14T12:54:26 IST" duration-ms="4694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.CartTest.testAddProductToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddProductToCart()[pri:1, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:54:26 IST" name="testAddProductToCart" finished-at="2024-06-14T12:54:41 IST" duration-ms="14548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:54:41 IST" name="teardown" finished-at="2024-06-14T12:54:42 IST" duration-ms="1908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=CartTest.testAddProductToCart()[pri:1, instance:com.flipkart.tests.CartTest@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:54:42 IST" name="setup" finished-at="2024-06-14T12:54:45 IST" duration-ms="2664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.CartTest.testRemoveProductFromCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRemoveProductFromCart()[pri:2, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:54:45 IST" name="testRemoveProductFromCart" finished-at="2024-06-14T12:55:00 IST" duration-ms="14577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCart -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:55:00 IST" name="teardown" finished-at="2024-06-14T12:55:01 IST" duration-ms="1721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRemoveProductFromCart status=SUCCESS method=CartTest.testRemoveProductFromCart()[pri:2, instance:com.flipkart.tests.CartTest@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:55:01 IST" name="setup" finished-at="2024-06-14T12:55:04 IST" duration-ms="2667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.CartTest.testBuyNowBtnFunctionality() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testBuyNowBtnFunctionality()[pri:3, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:55:04 IST" name="testBuyNowBtnFunctionality" finished-at="2024-06-14T12:55:06 IST" duration-ms="2355" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4fdf8bd403630e3394cff02bf9a51393, sendKeysToElement {id=f.687F581262144A5274EEBCEF5F4847FF.d.39981BFD4A581BFD53BB21AA5A61018D.e.34, value=[Ljava.lang.CharSequence;@25cde5bb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.62, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\AASHIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64942/devtoo..., se:cdpVersion: 126.0.6478.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4fdf8bd403630e3394cff02bf9a51393)] -> xpath: //input[@name='q']]
+Session ID: 4fdf8bd403630e3394cff02bf9a51393]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4fdf8bd403630e3394cff02bf9a51393, sendKeysToElement {id=f.687F581262144A5274EEBCEF5F4847FF.d.39981BFD4A581BFD53BB21AA5A61018D.e.34, value=[Ljava.lang.CharSequence;@25cde5bb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.62, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\AASHIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64942/devtoo..., se:cdpVersion: 126.0.6478.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4fdf8bd403630e3394cff02bf9a51393)] -> xpath: //input[@name='q']]
+Session ID: 4fdf8bd403630e3394cff02bf9a51393
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy27.sendKeys(Unknown Source)
+at com.flipkart.pages.HomePage.searchForProduct(HomePage.java:45)
+at com.flipkart.tests.CartTest.testBuyNowBtnFunctionality(CartTest.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuyNowBtnFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.CartTest@50378a4]" started-at="2024-06-14T12:55:06 IST" name="teardown" finished-at="2024-06-14T12:55:09 IST" duration-ms="2402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBuyNowBtnFunctionality status=FAILURE method=CartTest.testBuyNowBtnFunctionality()[pri:3, instance:com.flipkart.tests.CartTest@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.CartTest -->
+    </test> <!-- CartTest -->
+    <test started-at="2024-06-14T12:55:09 IST" name="GroceryTest" finished-at="2024-06-14T12:55:53 IST" duration-ms="43937">
+      <class name="com.flipkart.tests.GroceryTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:09 IST" name="setup" finished-at="2024-06-14T12:55:13 IST" duration-ms="4202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.GroceryTest.testGroceryValidPincode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGroceryValidPincode()[pri:1, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:13 IST" name="testGroceryValidPincode" finished-at="2024-06-14T12:55:15 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroceryValidPincode -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:15 IST" name="teardown" finished-at="2024-06-14T12:55:17 IST" duration-ms="1369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGroceryValidPincode status=SUCCESS method=GroceryTest.testGroceryValidPincode()[pri:1, instance:com.flipkart.tests.GroceryTest@5276d6ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:17 IST" name="setup" finished-at="2024-06-14T12:55:21 IST" duration-ms="4123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.GroceryTest.testGroceryInValidPincode() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGroceryInValidPincode()[pri:2, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:21 IST" name="testGroceryInValidPincode" finished-at="2024-06-14T12:55:23 IST" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroceryInValidPincode -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:23 IST" name="teardown" finished-at="2024-06-14T12:55:24 IST" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGroceryInValidPincode status=SUCCESS method=GroceryTest.testGroceryInValidPincode()[pri:2, instance:com.flipkart.tests.GroceryTest@5276d6ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:24 IST" name="setup" finished-at="2024-06-14T12:55:28 IST" duration-ms="4045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.GroceryTest.testGrocerySearchBarFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGrocerySearchBarFunctionality()[pri:3, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:28 IST" name="testGrocerySearchBarFunctionality" finished-at="2024-06-14T12:55:30 IST" duration-ms="1961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrocerySearchBarFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:30 IST" name="teardown" finished-at="2024-06-14T12:55:32 IST" duration-ms="1434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGrocerySearchBarFunctionality status=SUCCESS method=GroceryTest.testGrocerySearchBarFunctionality()[pri:3, instance:com.flipkart.tests.GroceryTest@5276d6ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:32 IST" name="setup" finished-at="2024-06-14T12:55:36 IST" duration-ms="4171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.GroceryTest.testGroceryAddItems() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGroceryAddItems()[pri:4, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:36 IST" name="testGroceryAddItems" finished-at="2024-06-14T12:55:41 IST" duration-ms="5142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroceryAddItems -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:41 IST" name="teardown" finished-at="2024-06-14T12:55:42 IST" duration-ms="1333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGroceryAddItems status=SUCCESS method=GroceryTest.testGroceryAddItems()[pri:4, instance:com.flipkart.tests.GroceryTest@5276d6ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:42 IST" name="setup" finished-at="2024-06-14T12:55:46 IST" duration-ms="4188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.GroceryTest.testGroceryRemoveItems() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGroceryRemoveItems()[pri:5, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:46 IST" name="testGroceryRemoveItems" finished-at="2024-06-14T12:55:51 IST" duration-ms="4984" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d2ccc9c4ba14e2a36c3a57fb51f5495, clickElement {id=f.FF4FBEED91A110103B4D0C2529A1CA17.d.AA7CED9BBA7373075B63D93A6FABBA4F.e.181}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.62, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\AASHIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65185/devtoo..., se:cdpVersion: 126.0.6478.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7d2ccc9c4ba14e2a36c3a57fb51f5495)] -> xpath: (//img)[4]]
+Session ID: 7d2ccc9c4ba14e2a36c3a57fb51f5495]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d2ccc9c4ba14e2a36c3a57fb51f5495, clickElement {id=f.FF4FBEED91A110103B4D0C2529A1CA17.d.AA7CED9BBA7373075B63D93A6FABBA4F.e.181}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.62, chrome: {chromedriverVersion: 126.0.6478.61 (8dc092df54ce..., userDataDir: C:\Users\AASHIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65185/devtoo..., se:cdpVersion: 126.0.6478.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7d2ccc9c4ba14e2a36c3a57fb51f5495)] -> xpath: (//img)[4]]
+Session ID: 7d2ccc9c4ba14e2a36c3a57fb51f5495
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy27.click(Unknown Source)
+at com.flipkart.pages.GroceryPage.removeItem(GroceryPage.java:90)
+at com.flipkart.tests.GroceryTest.testGroceryRemoveItems(GroceryTest.java:190)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroceryRemoveItems -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.GroceryTest@5276d6ee]" started-at="2024-06-14T12:55:51 IST" name="teardown" finished-at="2024-06-14T12:55:53 IST" duration-ms="1492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGroceryRemoveItems status=FAILURE method=GroceryTest.testGroceryRemoveItems()[pri:5, instance:com.flipkart.tests.GroceryTest@5276d6ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.GroceryTest -->
+    </test> <!-- GroceryTest -->
+    <test started-at="2024-06-14T12:55:53 IST" name="HelpPageTest" finished-at="2024-06-14T12:56:12 IST" duration-ms="19289">
+      <class name="com.flipkart.tests.HelpPageTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.HelpPageTest@6a4f1a55]" started-at="2024-06-14T12:55:53 IST" name="setup" finished-at="2024-06-14T12:55:57 IST" duration-ms="4277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.HelpPageTest.testHelpPageFeedbackYesBtnFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHelpPageFeedbackYesBtnFunctionality()[pri:1, instance:com.flipkart.tests.HelpPageTest@6a4f1a55]" started-at="2024-06-14T12:55:57 IST" name="testHelpPageFeedbackYesBtnFunctionality" finished-at="2024-06-14T12:56:01 IST" duration-ms="3401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelpPageFeedbackYesBtnFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.HelpPageTest@6a4f1a55]" started-at="2024-06-14T12:56:01 IST" name="teardown" finished-at="2024-06-14T12:56:02 IST" duration-ms="1543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHelpPageFeedbackYesBtnFunctionality status=SUCCESS method=HelpPageTest.testHelpPageFeedbackYesBtnFunctionality()[pri:1, instance:com.flipkart.tests.HelpPageTest@6a4f1a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.HelpPageTest@6a4f1a55]" started-at="2024-06-14T12:56:02 IST" name="setup" finished-at="2024-06-14T12:56:07 IST" duration-ms="4799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.HelpPageTest.testHelpPageFeedbackNoBtnFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHelpPageFeedbackNoBtnFunctionality()[pri:2, instance:com.flipkart.tests.HelpPageTest@6a4f1a55]" started-at="2024-06-14T12:56:07 IST" name="testHelpPageFeedbackNoBtnFunctionality" finished-at="2024-06-14T12:56:11 IST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelpPageFeedbackNoBtnFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.HelpPageTest@6a4f1a55]" started-at="2024-06-14T12:56:11 IST" name="teardown" finished-at="2024-06-14T12:56:12 IST" duration-ms="1358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHelpPageFeedbackNoBtnFunctionality status=SUCCESS method=HelpPageTest.testHelpPageFeedbackNoBtnFunctionality()[pri:2, instance:com.flipkart.tests.HelpPageTest@6a4f1a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.HelpPageTest -->
+    </test> <!-- HelpPageTest -->
+    <test started-at="2024-06-14T12:56:12 IST" name="HomeTest" finished-at="2024-06-14T12:56:44 IST" duration-ms="31406">
+      <class name="com.flipkart.tests.HomeTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:12 IST" name="setup" finished-at="2024-06-14T12:56:14 IST" duration-ms="2130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.HomeTest.testFlipkartLogoVisibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlipkartLogoVisibility()[pri:1, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:14 IST" name="testFlipkartLogoVisibility" finished-at="2024-06-14T12:56:16 IST" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlipkartLogoVisibility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:16 IST" name="teardown" finished-at="2024-06-14T12:56:18 IST" duration-ms="1520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlipkartLogoVisibility status=SUCCESS method=HomeTest.testFlipkartLogoVisibility()[pri:1, instance:com.flipkart.tests.HomeTest@626abbd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:18 IST" name="setup" finished-at="2024-06-14T12:56:22 IST" duration-ms="4211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.HomeTest.testSearchBarFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchBarFunctionality()[pri:2, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:22 IST" name="testSearchBarFunctionality" finished-at="2024-06-14T12:56:25 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBarFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:25 IST" name="teardown" finished-at="2024-06-14T12:56:26 IST" duration-ms="1026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBarFunctionality status=SUCCESS method=HomeTest.testSearchBarFunctionality()[pri:2, instance:com.flipkart.tests.HomeTest@626abbd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:26 IST" name="setup" finished-at="2024-06-14T12:56:30 IST" duration-ms="4020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.HomeTest.testSearchWithMisspelledQueries()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchWithMisspelledQueries()[pri:3, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:30 IST" name="testSearchWithMisspelledQueries" finished-at="2024-06-14T12:56:42 IST" duration-ms="12219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchWithMisspelledQueries -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.HomeTest@626abbd0]" started-at="2024-06-14T12:56:42 IST" name="teardown" finished-at="2024-06-14T12:56:44 IST" duration-ms="1579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchWithMisspelledQueries status=SUCCESS method=HomeTest.testSearchWithMisspelledQueries()[pri:3, instance:com.flipkart.tests.HomeTest@626abbd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.HomeTest -->
+    </test> <!-- HomeTest -->
+    <test started-at="2024-06-14T12:56:44 IST" name="LoginTest" finished-at="2024-06-14T12:56:52 IST" duration-ms="8086">
+      <class name="com.flipkart.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.LoginTest@46d59067]" started-at="2024-06-14T12:56:44 IST" name="setup" finished-at="2024-06-14T12:56:48 IST" duration-ms="3993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.LoginTest.testInvalidLoginFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidLoginFunctionality()[pri:1, instance:com.flipkart.tests.LoginTest@46d59067]" started-at="2024-06-14T12:56:48 IST" name="testInvalidLoginFunctionality" finished-at="2024-06-14T12:56:50 IST" duration-ms="2807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.LoginTest@46d59067]" started-at="2024-06-14T12:56:50 IST" name="teardown" finished-at="2024-06-14T12:56:52 IST" duration-ms="1284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLoginFunctionality status=SUCCESS method=LoginTest.testInvalidLoginFunctionality()[pri:1, instance:com.flipkart.tests.LoginTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2024-06-14T12:56:52 IST" name="SellerRegisterPageTest" finished-at="2024-06-14T12:57:05 IST" duration-ms="13447">
+      <class name="com.flipkart.tests.SellerRegisterPageTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.SellerRegisterPageTest@5dafbe45]" started-at="2024-06-14T12:56:52 IST" name="setup" finished-at="2024-06-14T12:56:56 IST" duration-ms="4111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.SellerRegisterPageTest.testInvalidOtpFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidOtpFunctionality()[pri:1, instance:com.flipkart.tests.SellerRegisterPageTest@5dafbe45]" started-at="2024-06-14T12:56:56 IST" name="testInvalidOtpFunctionality" finished-at="2024-06-14T12:57:03 IST" duration-ms="7585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidOtpFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.SellerRegisterPageTest@5dafbe45]" started-at="2024-06-14T12:57:03 IST" name="teardown" finished-at="2024-06-14T12:57:05 IST" duration-ms="1749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidOtpFunctionality status=SUCCESS method=SellerRegisterPageTest.testInvalidOtpFunctionality()[pri:1, instance:com.flipkart.tests.SellerRegisterPageTest@5dafbe45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.SellerRegisterPageTest -->
+    </test> <!-- SellerRegisterPageTest -->
+    <test started-at="2024-06-14T12:57:05 IST" name="SellerTest" finished-at="2024-06-14T12:57:40 IST" duration-ms="34940">
+      <class name="com.flipkart.tests.SellerTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:54:07 IST" name="beforesuite" finished-at="2024-06-14T12:54:09 IST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:05 IST" name="setup" finished-at="2024-06-14T12:57:09 IST" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.SellerTest.testSellerBtnPresence()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSellerBtnPresence()[pri:1, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:09 IST" name="testSellerBtnPresence" finished-at="2024-06-14T12:57:09 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSellerBtnPresence -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:09 IST" name="teardown" finished-at="2024-06-14T12:57:11 IST" duration-ms="1646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSellerBtnPresence status=SUCCESS method=SellerTest.testSellerBtnPresence()[pri:1, instance:com.flipkart.tests.SellerTest@5a7fe64f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:11 IST" name="setup" finished-at="2024-06-14T12:57:16 IST" duration-ms="4478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.SellerTest.testSellerLoginFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSellerLoginFunctionality()[pri:2, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:16 IST" name="testSellerLoginFunctionality" finished-at="2024-06-14T12:57:20 IST" duration-ms="4075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSellerLoginFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:20 IST" name="teardown" finished-at="2024-06-14T12:57:21 IST" duration-ms="1275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSellerLoginFunctionality status=SUCCESS method=SellerTest.testSellerLoginFunctionality()[pri:2, instance:com.flipkart.tests.SellerTest@5a7fe64f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:21 IST" name="setup" finished-at="2024-06-14T12:57:25 IST" duration-ms="4290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.SellerTest.testSellerResetPasswordFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSellerResetPasswordFunctionality()[pri:3, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:25 IST" name="testSellerResetPasswordFunctionality" finished-at="2024-06-14T12:57:30 IST" duration-ms="4435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSellerResetPasswordFunctionality -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:30 IST" name="teardown" finished-at="2024-06-14T12:57:31 IST" duration-ms="1273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSellerResetPasswordFunctionality status=SUCCESS method=SellerTest.testSellerResetPasswordFunctionality()[pri:3, instance:com.flipkart.tests.SellerTest@5a7fe64f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:31 IST" name="setup" finished-at="2024-06-14T12:57:36 IST" duration-ms="4687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.tests.SellerTest.testStartSellingBtnPresence()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testStartSellingBtnPresence()[pri:4, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:36 IST" name="testStartSellingBtnPresence" finished-at="2024-06-14T12:57:39 IST" duration-ms="3192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartSellingBtnPresence -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.SellerTest@5a7fe64f]" started-at="2024-06-14T12:57:39 IST" name="teardown" finished-at="2024-06-14T12:57:40 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStartSellingBtnPresence status=SUCCESS method=SellerTest.testStartSellingBtnPresence()[pri:4, instance:com.flipkart.tests.SellerTest@5a7fe64f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.tests.SellerTest -->
+    </test> <!-- SellerTest -->
+  </suite> <!-- Flipkart Automation Suite -->
+</testng-results>
